@@ -1,4 +1,4 @@
-require "activerecord/hat/version"
+require "active_record/hat/version"
 
 module ActiveRecord
   module Attributes

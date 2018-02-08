@@ -8,7 +8,7 @@ instance.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'activerecord-hat'
+gem 'activerecord-hat', require: 'active_record/hat'
 ```
 
 And then execute:
@@ -18,6 +18,8 @@ And then execute:
 Or install it yourself as:
 
     $ gem install activerecord-hat
+
+And require as show above.
 
 Now you can keep your hat on. :-)
 

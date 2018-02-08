@@ -1,10 +1,10 @@
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'activerecord/hat/version'
+require 'active_record/hat/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'activerecord-hat'
-  spec.version       = Activerecord::Hat::VERSION
+  spec.version       = ActiveRecord::Hat::VERSION
   spec.authors       = ['Eustaquio Rangel']
   spec.email         = ['taq@eustaquiorangel.com']
 

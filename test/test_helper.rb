@@ -1,4 +1,3 @@
 $LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
-require "activerecord/hat"
-
+require "active_record/hat"
 require "minitest/autorun"
