@@ -8,7 +8,7 @@ instance.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'activerecord-hat', require: 'active_record/hat'
+gem 'activerecord-hat'
 ```
 
 And then execute:
